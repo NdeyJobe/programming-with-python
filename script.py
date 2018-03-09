@@ -33,10 +33,24 @@ else:
 print 'Good bye!'
     
 
-count = 0
+'''count = 0
 while count < 9:
     print 'The count is: ' , count
     count = count + 1
 
 print 'Good bye'
 
+var = 1
+while var == 1:
+    num = raw_input('Enter a number: ')
+    print 'You entered: ', num 
+print 'Goode bye!'
+'''
+
+
+count = 0
+while count < 5:
+    print count, ' is less tha 5'
+    count += 1
+else:
+    print count, ' is not less than 5'
